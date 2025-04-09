@@ -1,3 +1,5 @@
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
-console.log("Hello, Hexlet!");
+import getGreating from './src/index.js';
+
+const greating = getGreating(2);
+
+console.log(greating);
